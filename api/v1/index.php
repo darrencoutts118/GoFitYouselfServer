@@ -1,7 +1,7 @@
 <?php
 // Connect to remote database
-mysql_connect("db570409106.db.1and1.com","dbo570409106","CS3024Bravo15Fit");
-mysql_select_db("db570409106") or die(mysql_error());
+mysql_connect("db4free.net","gofityourself","CS3024Bravo15Fit");
+mysql_select_db("gofityourself") or die(mysql_error());
 
 // Load the Sim Framework and setup the autoloaders
 include "Slim/Slim.php";
